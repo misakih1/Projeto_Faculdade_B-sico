@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4;
+} 
+
+nav {
+    background-color: blue;
+    padding: 1rem 0;
+}
+
+#container_menu {
+    width: 80%;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 1rem;
+    margin: 0;
+}
+
+ul li:hover, li:hover a {
+    background: white;
+    color: black;
+    border-radius: 8px; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+section {
+    margin: 20px auto;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.sub_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 20px; 
+}
+
+.imagem-secao {
+    flex-shrink: 0; 
+    max-width: 150px; 
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+    padding: 4px;
+}
+
+.texto-secao p {
+    flex: 1; 
+    text-align: justify; 
+}
+
+.texto-secao h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.texto-secao p {
+    font-size: 1.1rem;
+}
+
+section {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
